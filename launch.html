@@ -7,10 +7,11 @@
     <script src="node_modules/fhirclient/build/fhir-client.js"></script>
     <script>
       FHIR.oauth2.authorize({
+        "client_id": "5c902934-0e23-4f93-8af6-8bbfb635a199",
         //"client_id": "growth_chart",
-        "scope":  "patient/Observation.read patient/Patient.read offline_access",
+        "scope":  "patient/Observation.read patient/Patient.read offline_access"
        // "client_id": "944d96a0-4caf-4a96-813e-bc38aadb1169" // HSPC
-        "client_id": "5c902934-0e23-4f93-8af6-8bbfb635a199" 
+       // "client_id": "5c902934-0e23-4f93-8af6-8bbfb635a199" //
       });
     </script>
   </head>
